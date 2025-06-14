@@ -18,4 +18,4 @@ information?
 
     B. Sort the pickup location IDs in order to find the most popular pickup locations on 
        April 10th, 2019. Identify the top 3 locations. 
-        ---> command used: grep '2019-04-10' 2019-04.csv | cut -d',' -f8 | sort | uniq -c |                            sort -rn | head -n3
+        ---> command used: grep '2019-04-10' 2019-04.csv | cut -d',' -f8 | sort | uniq -c |                                               sort -rn | head -n3
