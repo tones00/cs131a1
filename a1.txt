@@ -1,0 +1,78 @@
+[No.1] output for home dir path
+command output from cmds.log:
+
+/home/anthony_moll22
+-------------------------------------------------------------------------------------
+[No.2] output to find mem and cpu info files
+command output from cmds.log(meminfo is correct file):
+
+iomem
+meminfo
+-------------------------------------------------------------------------------------
+meminfo contents:
+
+MemTotal:         976896 kB
+MemFree:          238408 kB
+MemAvailable:    964608 kB 
+       .    .    .
+DirectMap1G:           0 kB
+-------------------------------------------------------------------------------------
+command output from cmds.log(cpuinfo is correct file):
+
+cpuinfo
+
+-------------------------------------------------------------------------------------
+cpuinfo contents:
+
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 79
+model name	: Intel(R) Xeon(R) CPU @ 2.20GHz
+stepping	: 0
+microcode	: 0xffffffff
+cpu MHz		: 2200.232
+cache size	: 56320 KB
+       .    .    .
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+-------------------------------------------------------------------------------------
+[No.3] identify os version (file under /etc/)
+command output from cmds.log (os-release is correct file):
+
+host.conf
+hostname
+hosts
+hosts.allow
+hosts.deny
+os-release
+sos
+-------------------------------------------------------------------------------------
+os-release contents: 
+
+NAME="Ubuntu"
+VERSION="20.04.6 LTS (Focal Fossa)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 20.04.6 LTS"
+VERSION_ID="20.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=focal
+UBUNTU_CODENAME=focal
+-------------------------------------------------------------------------------------
+[No.4] A. sort popular pickup locations for April 2nd:
+command output from cmds.log:
+  13354 161.0
+  12421 237.0
+  11138 236.0
+
+B. sort popular pickup locations for April 10th:
+command output from cmds.log:
+  13290 161.0
+  12956 237.0
+  11278 236.0
